@@ -4,7 +4,7 @@ import Head from "next/head";
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
 import Image from 'next/image';
-import adamPic from '../../public/adam-headshot.jpeg';
+import adamPic from '../../public/adamPic.jpg';
 import design from '../../public/design.png';
 import code from '../../public/code.png';
 import tools from '../../public/tools.png';
@@ -28,7 +28,7 @@ export default function Home() {
       <main className="flex flex-col bg-gray-50 dark:bg-gray-900">
 
         {/* Content padding */}
-        <div className="px-8 md:px-20 lg:px-40 pb-10">
+        <div className="px-8 md:px-20 xl:px-40 pb-10">
 
           {/* Hero section */}
           <section className="min-h-screen mb-10">
@@ -120,13 +120,13 @@ export default function Home() {
           <PortfolioSection projects={projects} />
 
           {/* Testimonials */}
-          <TestimonialSection />
+          {/* <TestimonialSection /> */}
         </div>
 
         {/* CTA Section */}
         <div className="bg-teal-500 dark:bg-teal-800 w-full">
           <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:flex lg:items-center lg:justify-between lg:px-8">
-            <h2 className="max-w-2xl text-4xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-5xl">Want to hire me?
+            <h2 className="max-w-2xl text-3xl font-semibold tracking-tight text-gray-900 dark:text-white lg:text-5xl">Want to hire me?
               <br></br>
               I'm available for full-time work.
             </h2>
@@ -161,7 +161,7 @@ export default function Home() {
                 <AiFillLinkedin className="text-2xl text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-600" />
               </a>
             </div>
-            <p className="mt-10 text-center text-sm/6 text-gray-600 dark:text-gray-400">&copy; 2024 Adam Lawrence Hauze. All rights reserved.</p>
+            <p className="mt-6 text-center text-sm/6 text-gray-600 dark:text-gray-400">&copy; 2024 Adam Lawrence Hauze. All rights reserved.</p>
           </div>
         </footer>
 

@@ -24,7 +24,7 @@ const ProjectDetail = ({ project, onClose }) => {
       onClick={handleBackdropClick}
     >
       <div className="min-h-screen py-8 px-4 flex items-center justify-center" onClick={handleBackdropClick}>
-        <div className="w-[80%] max-w-7xl bg-gray-100 dark:bg-gray-800 rounded-lg p-8 md:p-16 relative" onClick={e => e.stopPropagation()}>
+        <div className="w-[95%] md:w-[80%] max-w-7xl bg-gray-100 dark:bg-gray-800 rounded-lg p-2 md:p-16 relative" onClick={e => e.stopPropagation()}>
 
           {/* Header */}
           <div className="text-center mb-8">
