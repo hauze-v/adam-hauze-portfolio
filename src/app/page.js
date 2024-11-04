@@ -133,7 +133,7 @@ export default function Home() {
             <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
               <a href="mailto:hauze_v@protonmail.com"
                 target="_blank"
-                className="rounded-md px-3.5 py-2.5 text-md font-semibold text-gray-900 dark:text-white border-2 border-teal-800 dark:border-teal-500 shadow-sm dark:shadow-none hover:bg-teal-800/25 dark:hover:bg-teal-500/50">Email me</a>
+                className="rounded-md px-3.5 py-2.5 text-md font-semibold text-gray-900 dark:text-white border-2 border-teal-800 dark:border-teal-500 shadow-sm dark:shadow-none hover:bg-teal-600 dark:hover:bg-teal-500/50">Email me</a>
               <a href="#" className="text-md/6 font-semibold text-gray-900 dark:text-white flex items-center">
                 <div className="flex items-center">
                   <p>Back to top</p>
