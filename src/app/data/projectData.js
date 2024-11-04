@@ -14,18 +14,47 @@ import igniteSS02 from "../../../public/ignite-ss02.jpg";
 import captureMain from "../../../public/capture-ssMain.png";
 import captureSS01 from "../../../public/capture-ss01.png";
 import captureSS02 from "../../../public/capture-ss02.jpg";
-// import ipsumMain from "../../../public/ipsum-ssMain.png";
-// import ipsumSS01 from "../../../public/ipsum-ss01.png";
-// import ipsumSS02 from "../../../public/ipsum-ss02.png";
 import quizMain from "../../../public/quiz-ssMain.png";
 import quizSS01 from "../../../public/quiz-ss01.png";
 import quizSS02 from "../../../public/quiz-ss02.png";
 import hangmanMain from "../../../public/hangman-ssMain.png";
 import hangmanSS01 from "../../../public/hangman-ss01.png";
 import hangmanSS02 from "../../../public/hangman-ss02.png";
+import catMain from "../../../public/cat-ssMain.png";
+import catSS01 from "../../../public/cat-ss01.png";
+import catSS02 from "../../../public/cat-ss02.png";
+import catSS03 from "../../../public/cat-ss03.png";
+import bmbMain from "../../../public/bmb-ss05.png";
+import bmbSS01 from "../../../public/bmb-ssMain.png";
+import bmbSS02 from "../../../public/bmb-ss01.png";
+import bmbSS03 from "../../../public/bmb-ss02.png";
+import bmbSS04 from "../../../public/bmb-ss03.png";
+import bmbSS05 from "../../../public/bmb-ss04.png";
 
 function getProjects() {
   return [
+    {
+      id: uuidv4(),
+      name: 'Design System For Video Game Management Frontend',
+      caseStudy: `This comprehensive UI/UX design project showcases my journey through modern design workflows and best practices, centered around creating a cohesive design system for a video game management platform. The project demonstrates proficiency with industry-standard tools like Figma while implementing current web and mobile design principles. Starting from initial sketches and inspiration gathering, through to detailed user flows and interactive prototypes, this project encapsulates the full design lifecycle. A particular focus was placed on accessibility and design theory, ensuring the final product not only looks appealing but is also inclusive and user-friendly. The project culminated in translating the Figma design system into a functional website, bridging the gap between design and implementation.`,
+      logic: `The project followed a structured design thinking methodology, beginning with user research and competitive analysis to inform the design decisions. In Figma, I created comprehensive user flows to map out the application's navigation and interaction patterns. The sitemap was developed to ensure logical content organization and intuitive information architecture. Wireframes were created at varying fidelities, starting with low-fidelity sketches and progressing to detailed high-fidelity mockups. The prototyping phase involved creating interactive elements to test user interactions and validate design decisions. The design system itself was built with scalability in mind, including a comprehensive color palette, typography system, component library, and spacing guidelines. These elements were carefully documented and organized in Figma, making them easily transferable to the development phase.`,
+      bgImage: bmbMain,
+      hosting: 'Figma',
+      screenshots: [bmbSS01, bmbSS02, bmbSS03, bmbSS04, bmbSS05],
+      liveLink: 'https://www.figma.com/design/p6U8Bcqb483uYty55RRSNG/Beat-my-Backlog?node-id=116-2&t=u14dGdDMO5s1MLFp-1',
+      githubLink: null
+    },
+    {
+      id: uuidv4(),
+      name: 'Cat WordPress Website Design',
+      caseStudy: `This project showcases my ability to create a complete WordPress website from concept to deployment, with a focus on custom design elements and reusable components. Using Generate Press as a foundation, I extended the functionality with custom CSS to create a unique and engaging user experience. The project demonstrates my skills in branding development, including creating a cohesive visual identity through carefully selected colors, typography, and custom logo design. A key achievement was the development of reusable design components that maintain consistency across the site while allowing for flexible content creation. The blog cover photo system I created using Canva ensures visual consistency while enabling efficient content production.`,
+      logic: `The technical implementation began with customizing the Generate Press theme through its built-in customization options, followed by extending functionality with custom CSS. I created a systematic approach to typography and spacing, ensuring consistent visual hierarchy throughout the site. The reusable components were built using WordPress's native features and enhanced with custom styling, making them easy for content creators to implement. The blog cover photo system was designed with specific templates in Canva that could be quickly adapted for new content while maintaining brand consistency. The site's architecture was planned to optimize for both user experience and search engine optimization, with careful attention to page load times and mobile responsiveness.`,
+      bgImage: catMain,
+      hosting: 'Siteground WordPress Hosting',
+      screenshots: [catSS01, catSS02, catSS03],
+      liveLink: 'https://thecarefreecat.com/',
+      githubLink: null
+    },
     {
       id: uuidv4(),
       name: 'Angular, WebAssembly, Firebase Video Sharing Application',

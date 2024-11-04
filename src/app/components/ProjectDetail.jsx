@@ -24,7 +24,7 @@ const ProjectDetail = ({ project, onClose }) => {
       onClick={handleBackdropClick}
     >
       <div className="min-h-screen py-8 px-4 flex items-center justify-center" onClick={handleBackdropClick}>
-        <div className="w-[80%] max-w-7xl bg-gray-200 dark:bg-gray-800 rounded-lg p-8 md:p-16 relative" onClick={e => e.stopPropagation()}>
+        <div className="w-[80%] max-w-7xl bg-gray-100 dark:bg-gray-800 rounded-lg p-8 md:p-16 relative" onClick={e => e.stopPropagation()}>
 
           {/* Header */}
           <div className="text-center mb-8">
@@ -53,9 +53,13 @@ const ProjectDetail = ({ project, onClose }) => {
 
           {/* Case Study */}
           <div className="w-[80%] mx-auto space-y-8">
-            <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-              {project.caseStudy}
-            </p>
+            {/* Description */}
+            <div>
+              <h3 className='text-lg text-gray-900 dark:text-white mb-2'>Description:</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                {project.caseStudy}
+              </p>
+            </div>
 
             {/* Action Buttons */}
             <div className="flex flex-col md:flex-row justify-center gap-4 my-12">
@@ -65,21 +69,26 @@ const ProjectDetail = ({ project, onClose }) => {
                 rel="noopener noreferrer"
                 className="px-6 py-3 text-teal-500 border-2 border-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300 text-center"
               >
-                Visit Website
+                View Live
               </a>
-              <a
-                href={project.githubLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3 text-teal-500 border-2 border-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300 text-center"
-              >
-                See the code
-              </a>
+              {project.githubLink && (
+                <a
+                  href={project.githubLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3 text-teal-500 border-2 border-teal-500 rounded-md hover:bg-teal-500 hover:text-white transition-colors duration-300 text-center"
+                >
+                  See the code
+                </a>
+              )}
             </div>
 
-            <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
-              {project.logic}
-            </p>
+            <div>
+              <h3 className='text-lg text-gray-900 dark:text-white mb-2'>Technical Details:</h3>
+              <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
+                {project.logic}
+              </p>
+            </div>
           </div>
 
           {/* Screenshot Gallery */}

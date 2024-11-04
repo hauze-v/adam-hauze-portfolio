@@ -1,11 +1,13 @@
 import Image from 'next/image';
+import zacPic from '../../../public/Zachary_ODonnell.png';
+import vancePic from '../../../public/Vance_Hensler.png';
 
 const TestimonialSection = () => {
   return (
     <>
-      <h3 className="text-3xl py-1 dark:text-white">Testimonials</h3>
+      <h3 className="text-3xl py-1 dark:text-white">Positive Feedback</h3>
       <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        I've had the pleasure of working with some amazing people who have shared their thoughts on my work. Here's what they have to say:
+        I've had the pleasure of working with some amazing people who were kind enough to share their thoughts on not only my output, but on what it's like to work with me. Here's what my manager and most senior developer on the team have to say about my recent work:
       </p>
       <section className="py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -17,7 +19,7 @@ const TestimonialSection = () => {
                 height={"192"}
                 alt="">
               </Image>
-              <Image className="self-start"
+              <Image className="self-start hidden dark:block"
                 src="https://www.energycap.com/wp-content/uploads/2022/04/energycap-white.svg"
                 width={"192"}
                 height={"192"}
@@ -25,12 +27,13 @@ const TestimonialSection = () => {
               </Image>
               <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg/8 text-gray-900 dark:text-gray-300">
-                  <p>“Amet amet eget scelerisque tellus sit neque faucibus non eleifend. Integer eu praesent at a. Ornare arcu gravida natoque erat et cursus tortor consequat at. Vulputate gravida sociis enim nullam ultricies habitant malesuada lorem ac. Tincidunt urna dui pellentesque sagittis.”</p>
+                  <p className='mb-2'>“Adam exceeded all goals in all periods of 2023. In fact, he exceeded the H2 goal we set - a goal that was intended as a stretch target - by more than 10%. His productivity increased 23% over the first half of the year.”</p>
+                  <p>“In addition to the quantitative jump in measured productivity, I've also seen major improvements in autonomy, confidence, and in the ability to find and follow relevant examples. And throughout all of it a positive, fun, and team-minded attitude and communication style.”</p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">
-                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src="/../../../../public/Zachary_ODonnell.png" alt=""></Image>
+                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={zacPic} alt=""></Image>
                   <div className="text-base">
-                    <div className="font-semibold text-gray-900 dark:text-white">Zac O'Donnell</div>
+                    <div className="font-semibold text-gray-900 dark:text-white">Zac O'Donnell (Manager)</div>
                     <div className="mt-1 text-gray-500 dark:text-gray-400">Director of Technology Enablement</div>
                   </div>
                 </figcaption>
@@ -43,20 +46,21 @@ const TestimonialSection = () => {
                 height={"192"}
                 alt="">
               </Image>
-              <Image className="self-start"
+              <Image className="self-start hidden dark:block"
                 src="https://www.energycap.com/wp-content/uploads/2022/04/energycap-white.svg"
                 width={"192"}
                 height={"192"}
                 alt="">
               </Image>            <figure className="mt-10 flex flex-auto flex-col justify-between">
                 <blockquote className="text-lg/8 text-gray-900 dark:text-gray-300">
-                  <p>“Excepteur veniam labore ullamco eiusmod. Pariatur consequat proident duis dolore nulla veniam reprehenderit nisi officia voluptate incididunt exercitation exercitation elit. Nostrud veniam sint dolor nisi ullamco.”</p>
+                  <p className='mb-6'>"I was actually thinking about this a week or so ago about how your code review work has been looking really good finding some tricky issues missed. I forget the review but it was one of mine."</p>
+                  <p>"I'm about to complete your Import Profile review, that was quite the beast! It was very well done."</p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">
-                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt=""></Image>
+                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={vancePic} alt=""></Image>
                   <div className="text-base">
-                    <div className="font-semibold text-gray-900 dark:text-white">Zac O'Donnell</div>
-                    <div className="mt-1 text-gray-500 dark:text-gray-400">Director of Technology Enablement</div>
+                    <div className="font-semibold text-gray-900 dark:text-white">Vance Hensler (Peer)</div>
+                    <div className="mt-1 text-gray-500 dark:text-gray-400">Staff Software Developer</div>
                   </div>
                 </figcaption>
               </figure>
