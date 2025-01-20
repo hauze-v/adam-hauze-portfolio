@@ -7,9 +7,9 @@ const TestimonialSection = () => {
     <>
       <h3 className="text-3xl py-1 dark:text-white">Positive Feedback</h3>
       <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-        I've had the pleasure of working with some amazing people who were kind enough to share their thoughts on not only my output, but on what it's like to work with me. Here's what my manager and most senior developer on the team have to say about my recent work:
+        I've had the pleasure of working with some amazing people who were kind enough to share their thoughts on not only my output, but on what it's like to work with me. Here's what my manager and most senior engineer on the team have to say about my recent work:
       </p>
-      <section className="py-24 sm:py-32">
+      <section className="py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
@@ -60,7 +60,7 @@ const TestimonialSection = () => {
                   <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={vancePic} alt=""></Image>
                   <div className="text-base">
                     <div className="font-semibold text-gray-900 dark:text-white">Vance Hensler (Peer)</div>
-                    <div className="mt-1 text-gray-500 dark:text-gray-400">Staff Software Developer</div>
+                    <div className="mt-1 text-gray-500 dark:text-gray-400">Staff Software Engineer</div>
                   </div>
                 </figcaption>
               </figure>

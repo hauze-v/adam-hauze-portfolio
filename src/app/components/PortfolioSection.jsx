@@ -10,7 +10,7 @@ const PortfolioSection = ({ projects }) => {
       <div className="mb-10">
         <h3 className="text-3xl py-1 dark:text-white">Portfolio</h3>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
-          As a frontend developer with degrees in both App Dev and Cybersecurity, I blend software development with security-first thinking. My work focuses on translating complex design requirements into clean, maintainable code using <span className="text-teal-500">Angular</span> and <span className="text-teal-500">React</span>, always with an emphasis on the end-user experience.
+          As a frontend developer with degrees in both App Dev and Cybersecurity, I blend software development with security-first thinking. My work focuses on translating complex design requirements into clean, maintainable code using <span className="text-teal-500">React</span> and <span className="text-teal-500">Angular</span>, always with an emphasis on the end-user experience.
         </p>
         <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
           The projects below showcase my software development journey - from Vanilla JS through my first framework <span className="text-teal-500">React</span>, to establishing expertise in <span className="text-teal-500">Angular</span>, to now expanding into UI/UX design while implementing full-stack applications with <span className="text-teal-500">Firebase</span>.
