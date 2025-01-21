@@ -46,8 +46,8 @@ const VideoTestimonial = ({ videoId }) => {
 
           {/* Attribution */}
           <figcaption className="text-base lg:col-start-1 lg:row-start-3">
-            <div className="font-semibold text-gray-900 dark:text-white">Total Man</div>
-            <div className="mt-1 text-gray-500 dark:text-gray-400">Team Tatsu Client</div>
+            <div className="font-semibold text-gray-900 dark:text-white">"Total Man" Mike</div>
+            <div className="mt-1 text-gray-500 dark:text-gray-400">Previous Client</div>
           </figcaption>
         </figure>
       </div>
