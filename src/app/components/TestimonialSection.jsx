@@ -31,7 +31,7 @@ const TestimonialSection = () => {
                   <p>“In addition to the quantitative jump in measured productivity, I've also seen major improvements in autonomy, confidence, and in the ability to find and follow relevant examples. And throughout all of it a positive, fun, and team-minded attitude and communication style.”</p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">
-                  {/* <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={zacPic} alt=""></Image> */}
+                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={zacPic} alt=""></Image>
                   <div className="text-base">
                     <div className="font-semibold text-gray-900 dark:text-white">Zac O'Donnell</div>
                     <div className="mt-1 text-gray-500 dark:text-gray-400">Director of Technology Enablement</div>
@@ -57,7 +57,7 @@ const TestimonialSection = () => {
                   <p>"I'm about to complete your Import Profile review, that was quite the beast! It was very well done."</p>
                 </blockquote>
                 <figcaption className="mt-10 flex items-center gap-x-6">
-                  {/* <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={vancePic} alt=""></Image> */}
+                  <Image className="rounded-full bg-gray-50" width={"56"} height={"56"} src={vancePic} alt=""></Image>
                   <div className="text-base">
                     <div className="font-semibold text-gray-900 dark:text-white">Vance Hensler</div>
                     <div className="mt-1 text-gray-500 dark:text-gray-400">Staff Software Engineer</div>
