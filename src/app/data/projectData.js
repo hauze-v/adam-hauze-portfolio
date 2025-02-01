@@ -30,6 +30,9 @@ import bmbSS02 from "../../../public/bmb-ss01.png";
 import bmbSS03 from "../../../public/bmb-ss02.png";
 import bmbSS04 from "../../../public/bmb-ss03.png";
 import bmbSS05 from "../../../public/bmb-ss04.png";
+import fbUI from "../../../public/fbUI.png";
+import fbUI02 from "../../../public/fbUI02.png";
+import fbUI03 from "../../../public/fbUI03.png";
 
 function getProjects() {
   return [
