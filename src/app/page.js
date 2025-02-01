@@ -102,13 +102,13 @@ export default function Home() {
                 <h3 className="text-lg font-medium pt-8 pb-2 lg:text-2xl dark:text-white">Software Engineering</h3>
                 <p className="py-2 max-w-xs mx-auto dark:text-white">Engineering software systems from front to back</p>
                 <h4 className="py-4 text-teal-600 font-bold lg:text-lg">My experience tech stack</h4>
+                <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">React (advanced)</p>
+                <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Typescript (advanced)</p>
                 <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Angular (advanced)</p>
                 <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Firebase (moderate)</p>
                 <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Jasmine (advanced)</p>
-                <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">React (advanced)</p>
                 <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Storybook (moderate)</p>
                 <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Tailwind CSS (moderate)</p>
-                <p className="text-gray-800 dark:text-gray-300 py-1 leading-5">Typescript (advanced)</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10 dark:bg-slate-700 dark:shadow-none flex-1">
                 <Image className="mx-auto" src={tools} width={100} height={100} alt="3D blender style icon that represents a list of design skills" />
