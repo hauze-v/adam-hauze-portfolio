@@ -83,12 +83,14 @@ const ProjectDetail = ({ project, onClose }) => {
               )}
             </div>
 
-            <div>
+            {project.logic && (
+              <div>
               <h3 className='text-lg text-gray-900 dark:text-white mb-2'>Technical Details:</h3>
               <p className="text-gray-600 dark:text-gray-300 text-lg leading-relaxed">
                 {project.logic}
               </p>
             </div>
+            )}
           </div>
 
           {/* Screenshot Gallery */}
