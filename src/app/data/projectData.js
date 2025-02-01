@@ -35,6 +35,16 @@ function getProjects() {
   return [
     {
       id: uuidv4(),
+      name: 'React Service/Product Feedback UI',
+      caseStudy: 'This project represents my exploration of building a dynamic feedback collection interface with React.js. Users can submit, edit, and delete feedback about a service, with real-time validation ensuring quality submissions. I focused on creating an intuitive user experience, incorporating smooth animations for interface transitions and clear navigation between pages. The project allowed me to practice state management in React, particularly with maintaining data consistency across different components while keeping the code organized. What I enjoyed most was implementing the subtle animations with framer-motion that bring life to the interface, especially during transitions between feedback items and form submissions. The real-time validation system guides users through the feedback submission process, while the addition of professional icons helped transform what could have been a basic CRUD application into a polished, production-ready interface that feels responsive and engaging to use.',
+      bgImage: fbUI,
+      hosting: 'Netlify',
+      screenshots: [fbUI02, fbUI03],
+      liveLink: 'https://adams-feedback-ui.netlify.app/',
+      githubLink: 'https://github.com/hauze-v/feedback-ui'
+    }, 
+    {
+      id: uuidv4(),
       name: 'Design System For Video Game Management Frontend',
       caseStudy: `This comprehensive UI/UX design project showcases my journey through modern design workflows and best practices, centered around creating a cohesive design system for a video game management application. The project demonstrates proficiency with industry-standard tools like Figma while implementing current web and mobile design principles. Starting from initial sketches and inspiration gathering, through to detailed user flows and interactive prototypes, this project encapsulates the full design lifecycle. A particular focus was placed on accessibility and design theory, ensuring the final product not only looks appealing but is also user-friendly. The project culminated in translating the Figma design system into a functional website, bridging the gap between design and implementation.`,
       logic: `The project followed a structured design thinking methodology, beginning with user research and competitive analysis to inform the design decisions. In Figma, I created comprehensive user flows to map out the application's navigation and interaction patterns. The sitemap was developed to ensure logical content organization and intuitive information architecture. Wireframes were created at varying fidelities, starting with low-fidelity sketches and progressing to detailed high-fidelity mockups. The prototyping phase involved creating interactive elements to test user interactions and validate design decisions. The design system itself was built with scalability in mind, including a comprehensive color palette, typography system, component library, and spacing guidelines. These elements were carefully documented and organized in Figma, making them easily transferable to the development phase.`,
